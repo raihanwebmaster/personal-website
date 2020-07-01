@@ -19,6 +19,9 @@ h4{
     padding: 20% 0 0 0;
     margin: 0px;
 }
+h5{
+    margin: -20px;
+}
 .color-edit{
     color:lightsalmon ;
 }
@@ -89,7 +92,7 @@ section{
 }
 
 .footer-area h1{
-    font-size: 30px;
+    font-size: 38px;
     padding-top: 8%;
 }
 .footer-button{
