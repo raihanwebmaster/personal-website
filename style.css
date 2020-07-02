@@ -133,3 +133,46 @@ h5{
     text-align: center;
     color: gainsboro;
     height: auto;
+}
+@media screen and (max-width:480px){
+    section{
+        height:450px;
+        padding-bottom: 50px;
+    }
+    .half-width{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-left: 0px;
+       
+       
+        
+    }
+    
+    .half-width img{
+        padding-top: 50px;
+  
+    }
+    .none-img img{
+        display: none;
+    }
+    .second-midel-width{
+        padding-top: 30px;
+    }
+    .second-midel-section{
+        height: 300px;
+    }
+    .btn{
+        width: 50%;
+    }
+    #top{
+        padding-top: 0px;
+    }
+    #top2{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-left: 0px;
+    }
+       
+}
