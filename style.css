@@ -4,10 +4,17 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
     box-sizing: border-box;
 }
-h2{
-    padding: 25% 0 0 0;
-    margin: 0px;
-    
+section{
+    height: 555px;
+    padding-bottom: 100px;
+}
+
+#top{
+    padding-top: 10%;
+}
+#top2{
+    padding-top: 15%;
+    margin-left: 1%;
 }
 h3{
     font-size: 40px;
@@ -16,17 +23,14 @@ h3{
 }
 h4{
     font-size: 30px;
-    padding: 20% 0 0 0;
-    margin: 0px;
-}
-h5{
-    margin: -20px;
-}
-.color-edit{
-    color:lightsalmon ;
+    font-weight: 500;
 }
 p{
     color: dimgray;
+}
+
+.color-edit{
+    color:lightsalmon ;
 }
 .link-button{
     text-decoration: none;
@@ -40,16 +44,10 @@ p{
     width: 40%;
     margin-left: 5%;
     padding-left: 5%;
-    padding-top: 2%;
-    
-    
+    padding-top: 2%;   
 }
 .half-width img{
     width: 80%;
-}
-section{
-    height: 555px;
-    padding-bottom: 100px;
 }
 .first-section{
     background-image: url("images/header-bg.png");
@@ -57,62 +55,81 @@ section{
     background-repeat:no-repeat ;
     background-position: center;
 }
-.midal-section{
+.midel-section{
     background-image: url("images/biography-bg.png");
     background-size: cover;
     background-repeat:no-repeat ;
     background-position: center;
 }
-.midal-text{
+.second-midel-width{
     text-align: center;
-    padding-top: 156px;
-    padding-bottom: 3%;
-    margin: 0px;
-}
-.pic-midal img{
-    width: 100%;
+    font-size: 27px;
     
 }
-.pic-midal{
+.photo-edit{
+    width: 27%;
     float: left;
-    width: 29%;
-    margin: 1%;
-    padding: 1%;
+    margin-left: 2%;
 }
-.mmidal-section{
+.photo-edit img{
+    width: 100%;
+}
+#photo-cover{
+    margin-left: 15%;
+}
+.second-midel-section{
     background-image: url("images/latest-work-bg.png");
     background-size: cover;
     background-repeat:no-repeat ;
     background-position: center;
-
 }
-.footer-area{
-    text-align: center;
-    padding-bottom: 50px;
-}
-
-.footer-area h1{
-    font-size: 38px;
+.model{
     padding-top: 8%;
 }
-.footer-button{
-    text-decoration: none;
-    background-image: linear-gradient(180deg,lightsalmon,tomato);
-    padding: 10px 20px;
-    border-radius: 5px;
-    color: white;
+#text-midel{
     text-align: center;
-    margin-left: 43%;
+    padding-bottom: 45px;
+}
+h2{
+    font-size:32px;
+    font-weight: 500;
     
 }
-
-.footer-down{
-    text-align: center;
-    padding-bottom: 10%;
+h5{
+    margin: 9px;
+    font-weight: 500;
+    
 }
-.footer-section{
+#font{
+    font-size: 10px;
+}
+.btn{
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    background-color:#FF448E;
+    color: white;
+    padding: 15px 6px;
+    border-radius: 13px;
+
+}
+.btn p{
+    font-size: small;
+    color: white;
+}
+.btn h3{
+    font-size: 25px;
+}
+.header{
     background-image: url("images/footer-bg.png");
     background-size: cover;
     background-repeat:no-repeat ;
-    background-position: center;
+    background-position: center; 
+    padding-top: 3%;
 }
+.down-area{
+    text-align: center;
+    color: gainsboro;
+    height: auto;
